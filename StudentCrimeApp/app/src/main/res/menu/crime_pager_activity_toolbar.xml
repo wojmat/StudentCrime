@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/prev_crime"
+        android:icon="@drawable/ic_baseline_first_page_24"
+        app:showAsAction="ifRoom"
+        android:title="Prev crime" />
+
+    <item
+        android:id="@+id/next_crime"
+        android:icon="@drawable/ic_baseline_last_page_24"
+        app:showAsAction="ifRoom"
+        android:title="Next crime" />
+
+    <item
+        android:id="@+id/delete_crime"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="ifRoom"
+        android:title="delete crime" />>
+
+</menu>
